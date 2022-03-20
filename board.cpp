@@ -5,7 +5,7 @@
 Servo doorLock;
 int incomingByte = 0;
 String newPasswordString; //hold the new password
-char newPassword[6]; //charater string of newPasswordString
+char newPassword[6]; //character string of newPasswordString
 LiquidCrystal lcd(8,9,4,5,6,7);
 //initialize password to 1234
 //you can use password.set(newPassword) to overwrite it
